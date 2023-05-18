@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+}
+body{ 
+    background-color: rgb(203, 240, 255);
+}
+h1 {
+    margin-top: 0%;
+    /*border: 3px solid ;*/
+    display: inline-block;
+    width: 1468px;
+    height: 100px;
+    position: relative;
+   
+    text-align: center;
+    font-size: 76px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    color: white;
+    background-color:  rgb(35, 177, 233);
+    box-sizing: border-box ;
+    border:  10px solid;
+    border-color: black; 
+    margin: 10px;
+    
+}
+
+ul {
+  list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 236, 159);
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: darkred;
+    text-align: center;
+    padding: 16px 80px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  } 
+  
+  
+  li a:hover {
+    background-color: lightgrey;
+  }
+  
+    .search{ 
+      /*float: right;*/
+      /*padding: 10px;*/
+      border: none;
+      margin-top: 12px;
+      margin-right: 2px;
+      font-size: 17px;
+    }
+
+    
+.topnav2 {
+
+    background-color: rgb(255, 255, 255);;
+    overflow: hidden;
+    position: absolute;
+    left: 555px;
+    top: 380px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+.topnav2 a {
+    float: left;
+    top: 200px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 90px;
+    font-size: 20px;
+    background-color:burlywood;
+    text-decoration: none;
+  }
+
+.topnav2 a:hover {
+  background-color: rgb(0, 166, 255);
+  color: rgb(255, 255, 255);
+  }
+
+  .text{ 
+    position: absolute;
+    top: 230px; 
+    left: 358px;
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.accorn{
+  position: absolute;
+  left: 510px;
+  top: 420px;
+}
+
+.names{ 
+  position: relative;
+  left: 1000px;
+  top: 567px;
+  font-size: 18px;
+
+}
+
+
